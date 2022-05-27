@@ -1,0 +1,13 @@
+<?php
+
+/*
+for($numero_impar = 1; $numero_impar <= 100; $numero_impar +=2 ) {
+    echo "Número impar $numero_impar" . PHP_EOL;
+}
+*/
+
+for($numero = 0; $numero <= 100; $numero++) {
+    if($numero % 2 != 0 ) {
+    echo "Número impar $numero" . PHP_EOL;
+    }
+}
