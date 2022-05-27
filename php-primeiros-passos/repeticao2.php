@@ -1,0 +1,8 @@
+<?php
+
+for ($contador = 1; $contador <=15; $contador++) {
+    echo "contador #$contador". PHP_EOL;
+}
+
+
+// For = while
